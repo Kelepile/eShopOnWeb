@@ -7,7 +7,7 @@ name: eShopOnWeb Build and Test
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb
   LOCATION: westus
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  TEMPLATE-FILE: azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 06dd37d9-4ecb-42b6-99e9-59b3116e6975
   WEBAPP-NAME: kalakutadev
 
